@@ -28,10 +28,8 @@ Run the tests `npm test`
             "node": "12.6.0"
         }
 
-When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch. 
 `heroku create`
-`npm run predeploy` ("npm audit")
 `npm test`
-`deploy` ("git push heroku master")
-`heroku run deploy`
+`npm run predeploy` ("npm audit")
+`npm run deploy` ("git audit && git push heroku master")
 `heroku open`

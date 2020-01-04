@@ -3,9 +3,15 @@ This is a boilerplate project used for starting new projects!
 
 ## Remove git histroy
 `rm -rf .git && git init`
+`echo "node_modules" >> .gitignore`
+`echo ".env" >> .gitignore`
+`echo ".DS_Store" >> .gitignore;`
 
 ## Install Dependencies
 `npm install`
+`touch .env`
+`echo "NODE_ENV=development" > .env`
+`echo "API_TOKEN=someAPIToken" >> .env`
 
 # Edit `package.json`
 Edit the contents of the `package.json` to update "name", "scripts" & "globals"

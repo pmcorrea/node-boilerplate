@@ -1,13 +1,14 @@
 # Express Boilerplate!
 This is a boilerplate project used for starting new projects!
 
-## Scripts
-Start the application `npm start`
-Start nodemon for the application `npm run dev`
-Run the tests `npm test`
+## Remove git histroy
+`rm -rf .git && git init`
+
+## Install Dependencies
+`npm install`
 
 # Edit `package.json`
-Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"name": "UNTITLED-NODE-PROJECT",`
+Edit the contents of the `package.json` to update "name", "scripts" & "globals"
 
 "scripts": {
    "start": "node src/server_listen.js",
@@ -22,6 +23,10 @@ Edit the contents of the `package.json` to use NEW-PROJECT-NAME instead of `"nam
   "expect": true
 }
 
+## Scripts
+Start the application `npm start`
+Start nodemon for the application `npm run dev`
+Run the tests `npm test`
 
 ## Deploying
 # Ensure project version of node and engine in `package.json`

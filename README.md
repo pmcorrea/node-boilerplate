@@ -1,14 +1,11 @@
 # Express Boilerplate!
 This is a boilerplate project used for starting new projects!
 
-## npmgit
-## Remove git histroy
+## Remove git histroy, install Dependencies, create .env (npmgit)
 `rm -rf .git && git init`
 `echo "node_modules" >> .gitignore`
 `echo ".env" >> .gitignore`
 `echo ".DS_Store" >> .gitignore;`
-
-## Install Dependencies
 `npm install`
 `touch .env`
 `echo "NODE_ENV=development" > .env`

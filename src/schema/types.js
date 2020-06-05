@@ -3,17 +3,19 @@ const {
 	GraphQLID,
 	GraphQLString,
 	GraphQLInt,
-	GraphQLList
-} = require('graphql');
+	GraphQLList,
+} = require("graphql");
 
 // Define Movie Type
 const BookType = new GraphQLObjectType({
-	name: 'Book',
+	name: "Book",
 	fields: () => ({
 		id: { type: GraphQLInt },
 		name: { type: GraphQLString },
-		genre: { type: GraphQLString }
-	})
-})
+		genre: { type: GraphQLString },
+	}),
+});
 
-exports.BookType = BookType;
+module.exports = {
+	BookType: BookType,
+};
